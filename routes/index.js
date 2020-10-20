@@ -7,10 +7,10 @@ const cors = require('cors')
 
 const url = "mongodb+srv://pswd123:wI8aD6bxgryMg0eg@zencluster.y8kfe.mongodb.net/?retryWrites=true&w=majority";
 
-router.use(bodyParser.json());
-router.use(cors({
-  origin: "*"
-}));
+// router.use(bodyParser.json());
+// router.use(cors({
+//   origin: "*"
+// }));
 
 
 /* GET home page. */
