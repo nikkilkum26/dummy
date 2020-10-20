@@ -1,17 +1,13 @@
 var express = require('express');
 var router = express.Router();
-let bodyParser = require("body-parser");
 let mongodb = require("mongodb");
 let mongoClient=mongodb.MongoClient;
 
-let cors = require('cors')
+
 
 let url = "mongodb+srv://pswd123:wI8aD6bxgryMg0eg@zencluster.y8kfe.mongodb.net/?retryWrites=true&w=majority";
 
-router.use(bodyParser.json());
-router.use(cors({
-  origin: "*"
-}));
+
 
 
 /* GET home page. */
