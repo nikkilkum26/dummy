@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
-const bodyParser = require("body-parser");
-const mongodb = require("mongodb");
-const mongoClient = mongodb.MongoClient;
-const cors = require('cors')
+// const bodyParser = require("body-parser");
+// const mongodb = require("mongodb");
+// const mongoClient = mongodb.MongoClient;
+// const cors = require('cors')
 
-const url = "mongodb+srv://pswd123:wI8aD6bxgryMg0eg@zencluster.y8kfe.mongodb.net/?retryWrites=true&w=majority";
+// const url = "mongodb+srv://pswd123:wI8aD6bxgryMg0eg@zencluster.y8kfe.mongodb.net/?retryWrites=true&w=majority";
 
 // router.use(bodyParser.json());
 // router.use(cors({
